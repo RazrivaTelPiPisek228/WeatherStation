@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "ConsoleApp1\WeatherStation.csproj", "{575B2C51-6BDE-4FA4-86F2-DDFFCA5ABEF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{28D396CD-A267-4847-8804-34C39DB02C6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{575B2C51-6BDE-4FA4-86F2-DDFFCA5ABEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{575B2C51-6BDE-4FA4-86F2-DDFFCA5ABEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{575B2C51-6BDE-4FA4-86F2-DDFFCA5ABEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D396CD-A267-4847-8804-34C39DB02C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D396CD-A267-4847-8804-34C39DB02C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D396CD-A267-4847-8804-34C39DB02C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D396CD-A267-4847-8804-34C39DB02C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1163B30E-5728-43B4-BDB9-8E2BD4955F2E}
 	EndGlobalSection
 EndGlobal

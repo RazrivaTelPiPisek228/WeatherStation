@@ -13,5 +13,10 @@ namespace Database
             Id = id;
             counter++;
         }
+
+        public static int GetCounter()
+        {
+            return counter;
+        }
     }
 }
