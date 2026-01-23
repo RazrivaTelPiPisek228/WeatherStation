@@ -1,13 +1,14 @@
 ﻿using Database;
-Console.WriteLine(User.GetCounter());
-User u1 = new User("Ja", 999);
-User u2 = new User("Ja", 999);
-Console.WriteLine(User.GetCounter());
-User u3 = new User("Ja", 999);
-User u4 = new User("Ja", 999);
-User u5 = new User("Ja", 999);
-User u6 = new User("Ja", 999);
+namespace WeatherStation;
 
-Sensor s1 = new Sensor();
+public class Program
+{
+ public static void Main(string[] args)
+    {
+        using (var myContext = new WeatherStationContext())
+        {
+            myContext.Database.EnsureCreated();
+        }
+    }
 
-Console.WriteLine(User.GetCounter());
+}
